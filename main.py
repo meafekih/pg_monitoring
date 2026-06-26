@@ -1,7 +1,6 @@
 import psycopg
 import os
 
-
 def get_connection_params():
     return {
         "host": os.environ.get("PGHOST", "172.18.0.2"),
